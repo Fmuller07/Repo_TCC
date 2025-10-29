@@ -1,5 +1,5 @@
 const Caixa = require('../models/caixaModel');
-// edição ex
+
 module.exports = {
   abrir(req, res) {
     Caixa.verificarCaixaAberto((err, results) => {
